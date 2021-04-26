@@ -3,9 +3,11 @@
  * @Author: Luke Z
  * @Date: 2021-04-26 15:53:12
  * @LastEditors: Luke Z
- * @LastEditTime: 2021-04-26 15:54:19
+ * @LastEditTime: 2021-04-26 15:55:54
  * @FilePath: /DesignPattern/src/index.js
  */
+
+//for example redux-store
 class LoginForm {
   constructor() {
     this.state = "hide";
