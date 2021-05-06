@@ -3,9 +3,13 @@
  * @Author: Luke Z
  * @Date: 2021-05-04 23:14:21
  * @LastEditors: Luke Z
- * @LastEditTime: 2021-05-06 23:22:52
+ * @LastEditTime: 2021-05-06 23:27:12
  * @FilePath: /DesignPattern/src/index.js
  */
+
+// 适配器模式 提供不一样的接口，比如老旧功能不能用了，写个新的接口，可以接触目标类
+// 代理模式 显示原有功能，但是经过限制后者改写后
+// 装饰器模式  扩展功能，不能改写原有的
 
 class RealImg {
   constructor(fileName) {
