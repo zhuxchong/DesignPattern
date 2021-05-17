@@ -3,13 +3,14 @@
  * @Author: Luke Z
  * @Date: 2021-05-04 23:14:21
  * @LastEditors: Luke Z
- * @LastEditTime: 2021-05-17 23:19:27
+ * @LastEditTime: 2021-05-17 23:24:48
  * @FilePath: /DesignPattern/src/index.js
  */
 
 // 适配器模式 提供不一样的接口，比如老旧功能不能用了，写个新的接口，可以接触目标类
 // 代理模式 显示与原来一模一样的功能，但是功能是经过包装或者修改的，就是包了一层，改写了一下功能
 // 装饰器模式  扩展功能，不能改写原有的，包了一层 增加新的功能
+//外观模式，定义一个新接口，统一调用 比如用一个对象，可以通过这对象，直接调用对应组件
 
 class RealImg {
   constructor(fileName) {
